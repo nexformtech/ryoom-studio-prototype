@@ -1,6 +1,7 @@
-import { logo, logoWallImage } from "../data/projects";
+import { logoWallImage } from "../data/projects";
 import { site } from "../data/site";
 import { ArrowRight, CheckIcon } from "./icons";
+import { LogoMark } from "./LogoMark";
 import { Reveal } from "./Reveal";
 
 const points = [
@@ -19,7 +20,7 @@ export function About() {
             <figure className="relative aspect-[16/12] overflow-hidden rounded-[28px] bg-bg-3 transition-transform duration-700 md:aspect-[4/5] md:-rotate-[1.2deg] md:hover:rotate-0 md:hover:scale-[1.01]">
               <img src={logoWallImage} alt="The illuminated RYOOM STUDIO logo on the wall of the Jaipur studio" loading="lazy" decoding="async" className="h-full w-full object-cover" />
               <figcaption className="absolute bottom-3 left-3 flex max-w-[92%] items-center gap-3 rounded-[14px] bg-white/92 p-3 shadow-[var(--shadow-soft)] backdrop-blur-md sm:bottom-4 sm:left-4 sm:max-w-[84%]">
-                <img src={logo} alt="" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
+                <LogoMark alt="" className="h-10 w-10 rounded-full" />
                 <span>
                   <b className="block text-[0.85rem] font-semibold text-ink">Nagendra &amp; Anjali Saxena</b>
                   <span className="text-[0.72rem] text-muted">Principals, RYOOM STUDIO</span>

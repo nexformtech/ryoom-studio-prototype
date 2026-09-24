@@ -1,6 +1,6 @@
-import { logo } from "../data/projects";
 import { defaultEnquiryMessage, site, whatsappLink } from "../data/site";
 import { ArrowUp, MapPinIcon, PhoneIcon, WhatsAppIcon } from "./icons";
+import { LogoMark } from "./LogoMark";
 
 const nav = [
   ["About", "#about"], ["Services", "#services"], ["Projects", "#projects"], ["Portfolio", "#portfolio"],
@@ -17,7 +17,7 @@ export function Footer() {
         <div className="mb-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.7fr_0.8fr_1fr]">
           <div>
             <div className="flex items-center gap-3">
-              <img src={logo} alt="RYOOM STUDIO logo" width={44} height={44} className="h-11 w-11 -rotate-3 rounded-xl object-cover" />
+              <LogoMark alt="RYOOM STUDIO logo" className="h-11 w-11 -rotate-3 rounded-xl" />
               <div className="font-serif text-[1.9rem] leading-[0.9] tracking-[-0.02em]">
                 RYOOM
                 <span className="mt-1.5 block font-sans text-[0.66rem] font-semibold uppercase tracking-[0.18em] text-muted">Studio · Jaipur</span>

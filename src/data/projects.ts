@@ -1,34 +1,36 @@
-import heroImg from "../assets/images/hero.webp";
-import logoMark from "../assets/images/logo-mark.webp";
-import img01 from "../assets/images/img01.webp";
-import img02 from "../assets/images/img02.webp";
-import img04 from "../assets/images/img04.webp";
-import img05 from "../assets/images/img05.webp";
-import img06 from "../assets/images/img06.webp";
-import img07 from "../assets/images/img07.webp";
-import img08 from "../assets/images/img08.webp";
-import img09 from "../assets/images/img09.webp";
-import img10 from "../assets/images/img10.webp";
-import img11 from "../assets/images/img11.webp";
-import img12 from "../assets/images/img12.webp";
-import img14 from "../assets/images/img14.webp";
-import img15 from "../assets/images/img15.webp";
-import img16 from "../assets/images/img16.webp";
-import img17 from "../assets/images/img17.webp";
-import img18 from "../assets/images/img18.webp";
-import img19 from "../assets/images/img19.webp";
-import img20 from "../assets/images/img20.webp";
-import img21 from "../assets/images/img21.webp";
-import img22 from "../assets/images/img22.webp";
-import img25 from "../assets/images/img25.webp";
-import img26 from "../assets/images/img26.webp";
-import img28 from "../assets/images/img28.webp";
-import img29 from "../assets/images/img29.webp";
-import img30 from "../assets/images/img30.webp";
-import img31 from "../assets/images/img31.webp";
+import {
+  heroImg,
+  logoMark,
+  img01,
+  img02,
+  img04,
+  img05,
+  img06,
+  img07,
+  img08,
+  img09,
+  img10,
+  img11,
+  img12,
+  img14,
+  img15,
+  img16,
+  img17,
+  img18,
+  img19,
+  img20,
+  img21,
+  img22,
+  img25,
+  img26,
+  img28,
+  img29,
+  img30,
+  img31,
+} from "../assets/images";
 
 export const heroImage = heroImg;
-/** Cropped from the studio's own backlit logo, not redrawn. */
+/** Studio's own backlit logo photo. */
 export const logo = logoMark;
 export const logoWallImage = img02;
 export const storefrontImage = img12;

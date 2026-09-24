@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { cn } from "../utils/cn";
-import { logo } from "../data/projects";
 import { defaultEnquiryMessage, site, whatsappLink } from "../data/site";
 import { CloseIcon, MenuIcon, PhoneIcon, WhatsAppIcon } from "./icons";
+import { LogoMark } from "./LogoMark";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -16,7 +16,7 @@ const navLinks = [
 function Brand({ onClick }: { onClick?: () => void }) {
   return (
     <a href="#top" onClick={onClick} className="flex items-center gap-3 leading-none" aria-label="RYOOM STUDIO, back to top">
-      <img src={logo} alt="RYOOM STUDIO logo" width={36} height={36} className="h-9 w-9 -rotate-3 rounded-[10px] object-cover shadow-sm" />
+      <LogoMark alt="RYOOM STUDIO logo" className="h-9 w-9 -rotate-3 rounded-[10px] shadow-sm" />
       <span className="flex items-baseline gap-1.5">
         <span className="font-serif text-[1.55rem] tracking-[-0.02em] text-ink">RYOOM</span>
         <span className="hidden text-[0.6rem] font-semibold uppercase tracking-[0.18em] text-muted min-[380px]:inline">Studio</span>
